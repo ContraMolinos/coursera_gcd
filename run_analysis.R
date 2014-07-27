@@ -85,3 +85,6 @@ for(i in 1:length(act_labels))
 }
 
 names(tidy_data2)<-c("grouping_variable",names(tidy_data[,3:length(tidy_data)]))
+setwd('../')
+write.table(tidy_data, "tidy_data.txt", sep=" ") 
+write.table(tidy_data2, "tidy_data2.txt", sep=" ") 
