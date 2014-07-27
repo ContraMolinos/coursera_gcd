@@ -1,0 +1,3 @@
+This script requires to modify the variable PATH in line 8, that must point to the folder containing the UCI HAR Dataset. Under this folder there must be the folders "train" and "test", as well as the files with the description of the dataset.
+
+It will create a folder called "merged" with the data in "train" and "test" merged that contains all the data. After that, it will load everything and performs the reading and manipulation of the variables.
